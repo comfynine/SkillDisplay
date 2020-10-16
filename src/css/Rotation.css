@@ -1,12 +1,12 @@
 .rotation-list {
 	padding: 0 18px;
-	background-color: rgba(80, 80, 80, 0.3);
+	background-color: rgba(80, 80, 80, 0);
 	display: block;
 }
 
 .rotation-button {
-	background-color: rgba(100, 100, 100, 0.3);
-	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(100, 100, 100, 0);
+	color: rgba(255, 255, 255, 0);
 	padding: 0.1em;
 	width: 100vw;
 	border: none;
@@ -16,13 +16,13 @@
 }
 
 .rotation-button.expanded, .rotation-button:hover {
-	background-color: rgba(120, 120, 120, 0.3);
+	background-color: rgba(120, 120, 120, 0);
 }
 
 .rotation-button:after {
 	content: '\25BC';
 	font-size: 13px;
-	color: rgb(119,119,119);
+	color: rgb(119,119,119,0);
 	float: right;
 	margin-left: 5px;
 }
